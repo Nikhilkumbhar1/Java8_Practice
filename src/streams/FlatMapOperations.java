@@ -15,7 +15,7 @@ public class FlatMapOperations {
 
         courses.stream().flatMap(course->course.stream()).forEach(System.out::println);
 
-        System.out.println("Hello");
+
 
 
 
